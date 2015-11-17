@@ -1,0 +1,3 @@
+[submodule "bundle/image.vim"]
+	path = bundle/image.vim
+	url = https://github.com/ashisha/image.vim
