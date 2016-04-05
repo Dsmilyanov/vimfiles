@@ -31,3 +31,13 @@
 [submodule "bundle/apiblueprint.vim"]
 	path = bundle/apiblueprint.vim
 	url = https://github.com/kylef/apiblueprint.vim
+[submodule "bundle/unite.vim"]
+	path = bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim
+# DON'T FORGET TO COMPILE vimproc
+[submodule "bundle/vimproc.vim"]
+	path = bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = https://github.com/tomasr/molokai
