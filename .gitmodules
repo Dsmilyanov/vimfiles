@@ -44,3 +44,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "bundle/vim-argwrap"]
+	path = bundle/vim-argwrap
+	url = https://github.com/FooSoft/vim-argwrap
