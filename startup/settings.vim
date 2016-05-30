@@ -5,6 +5,9 @@ function! s:MapToggle(key, opt)
   exec 'nnoremap '.a:key.' '.cmd
 endfunction
 
+:set nu       " enable line numbers
+:set rnu      " enable relative line numbers (together with line numbers)
+
 MapToggle sl list
 MapToggle sh hlsearch
 MapToggle sw wrap
