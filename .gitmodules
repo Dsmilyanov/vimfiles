@@ -47,3 +47,6 @@
 [submodule "bundle/vim-argwrap"]
 	path = bundle/vim-argwrap
 	url = https://github.com/FooSoft/vim-argwrap
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
