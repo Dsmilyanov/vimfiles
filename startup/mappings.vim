@@ -38,3 +38,10 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 
 " Dash-vim mappings
 :nmap <silent> <leader>d <Plug>DashSearch
+
+MapToggle sl list
+MapToggle sh hlsearch
+MapToggle sw wrap
+MapToggle ss spell
+MapToggle sc cursorcolumn
+

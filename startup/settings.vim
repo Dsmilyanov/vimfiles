@@ -5,14 +5,16 @@ function! s:MapToggle(key, opt)
   exec 'nnoremap '.a:key.' '.cmd
 endfunction
 
-:set nu       " enable line numbers
-:set rnu      " enable relative line numbers (together with line numbers)
+set nu       " enable line numbers
+set rnu      " enable relative line numbers (together with line numbers)
 
-MapToggle sl list
-MapToggle sh hlsearch
-MapToggle sw wrap
-MapToggle ss spell
-MapToggle sc cursorcolumn
+set ignorecase " Ignore case when searching
+set smartcase " When searching try to be smart about cases
+set hlsearch " Highlight search results
+set incsearch " Makes search act like search in modern browsers
+set lazyredraw " Don't redraw while executing macros (good performance config)
+set showmatch
+set mat=2
 
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
