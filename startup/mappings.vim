@@ -15,12 +15,6 @@ xnoremap k gk
 nnoremap <C-l> gt
 nnoremap <C-h> gT
 
-" Faster scrolling
-nmap J 5j
-nmap K 5k
-xmap J 5j
-xmap K 5k
-
 nnoremap <silent> <leader>a :ArgWrap<CR>
 
 " Golang mappings
