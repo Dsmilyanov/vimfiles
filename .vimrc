@@ -13,7 +13,6 @@ filetype plugin on		" Enable filetype-specific plugins
 colorscheme molokai
 
 set scrolloff=3			  " Always show 3 lines above cursor
-
 set sw=2 ts=2 sts=2   " shiftwidth, tabstop, softtabstop
 set expandtab         " Turn tabs into spaces
 set autoindent
