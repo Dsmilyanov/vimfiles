@@ -5,3 +5,4 @@ bundle/*/doc/tags-*
 doc/tags
 doc/tags-*
 swap
+.DS_Store
