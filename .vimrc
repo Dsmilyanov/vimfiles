@@ -10,7 +10,7 @@ filetype indent on		" Enable filetype-specific indenting
 filetype plugin on		" Enable filetype-specific plugins
 
 " Color scheme
-colorscheme molokai
+colorscheme molokai " AVAILABLE: molokai | cobalt | solarized
 
 set scrolloff=3			  " Always show 3 lines above cursor
 set sw=2 ts=2 sts=2   " shiftwidth, tabstop, softtabstop
